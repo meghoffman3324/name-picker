@@ -1,0 +1,47 @@
+body {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,213,1) 100%);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  #box {
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    font-family: 'Henny Penny', cursive;
+    background-color: white;
+    width: 625px;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding: 20px 5px 20px 5px;
+    border-radius: 35px;
+    font-size: 70px;
+  }
+  
+  #list {
+    margin-right: 35px;
+    margin-top: -30px;
+  }
+  
+  #winningName{
+    font-family: 'Henny Penny', cursive;
+    font-size: 75px;
+    margin-top: -15px;
+  }
+  
+  #submit {
+    cursor: pointer;
+  }
+  
+  #winner {
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    color: blue;
+  }
+  
+  #winner:hover {
+    color: blue;
+  }
