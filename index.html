@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Quicksand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <h1>What's in a name?</h1>
+    <form onsubmit="return addItems()">
+      <p>Insert favorite names one at a time:</p>
+      <input type="text" id="box">
+      
+      <input type="submit" value="Submit"id = "submit">
+    </form>
+  <ul id="list">
+  <br>
+  </ul>
+
+  <h3>Winning Name</h3>
+    <button id = "winner" onclick = "pickWinner()">Winner</button>
+    <h2 id="winningName"></h2>
+    <script src="script.js"></script>
+  </body>
+</html>
